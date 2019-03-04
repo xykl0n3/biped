@@ -20,7 +20,7 @@ conn.open_port()
 
 
 
-
+###example : do("stand") #########
 def do(function):
         
 
