@@ -7,7 +7,7 @@ def read_file(filename):
             inpos.append(int(num))
         mot.append(inpos)
     text_file.close()
-   return mot
+    return mot
 
 
 
