@@ -1,7 +1,7 @@
 import dxl2
-from run import read,do
+from func import read,do
 
 #read()
-do(walk)
+#do("stand")
 
 
