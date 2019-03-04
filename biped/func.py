@@ -9,11 +9,7 @@ from read import read_file
 conn = dxl2.Connection("/dev/ttyUSB0")
 conn.open_port()
 
-
-###### uncomment to check present position ########
-# for i in range (1,11):
-#         m = dxl2.Motor(conn, i, dxl2.MotorType.AX)
-#         print(m.read(register.Instruction.PRESENT_POSITION))        
+      
 
 
 ####### gait ######
